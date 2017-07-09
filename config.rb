@@ -11,7 +11,7 @@ activate :blog do |blog|
     blog.sources = 'articles/:title.html'
     blog.permalink = ':year/:title.html'
     blog.layout = 'layouts/article'
-    blog.tag_template = 'layouts/tag'
+    blog.tag_template = 'layouts/tag.html'
     blog.calendar_template = 'layouts/calender'
     blog.paginate = false
 end
