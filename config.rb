@@ -6,7 +6,7 @@ set :slim, :layout_engine => :slim, :format => :html
 
 activate :blog do |blog|
     blog.default_extension = '.md'
-    blog.sources = 'articles/:title.html'
+    blog.sources = 'blog/articles/:title.html'
     blog.layout = 'layouts/article'
     blog.tag_template = 'layouts/tag.html'
     blog.calendar_template = 'layouts/calender.html'
