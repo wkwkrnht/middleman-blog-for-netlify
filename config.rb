@@ -5,8 +5,6 @@ set :layout, :_auto_layout
 set :slim, :layout_engine => :slim, :format => :html
 
 activate :blog do |blog|
-    blog.name = 'EXAMPLE'
-    blog.prefix = 'blog'
     blog.default_extension = '.md'
     blog.sources = 'articles/:title.html'
     blog.layout = 'layouts/article'
