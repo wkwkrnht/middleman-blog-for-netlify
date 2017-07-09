@@ -1,6 +1,6 @@
 ---
-title: HELLO WORLD
-date: 2017-07-01 00:00.00
+title: hello_world
+date: 2017-07-01
 tags: hello, world, test
 ---
 
